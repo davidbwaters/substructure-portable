@@ -1,6 +1,6 @@
 {
   "name": "@substructure/substructure-portable",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "main": "main.css",
   "author": "David B. Waters",
   "license": "MIT",
@@ -21,7 +21,7 @@
   "scripts": {
     "build": "sass --load-path=./ --no-source-map tools/main.scss main.css",
     "deploy": "yarn deploy:npm && yarn deploy:git",
-    "deploy:npm": "yarn publish --patch",
+    "deploy:npm": "yarn publish --access public --patch",
     "deploy:git": "git add -A && git commit -m .; git push"
   }
 }
