@@ -85,7 +85,7 @@ figure,
 hr,
 table,
 fieldset {
-  margin-bottom: 1rem;
+  margin-bottom: 1.5rem;
 }
 
 dd, ol, ul {
@@ -157,7 +157,7 @@ small {
 
 .o-media__image {
   float: left;
-  margin-right: 1rem;
+  margin-right: 1.5rem;
 }
 .o-media__image > img {
   display: block;
@@ -215,15 +215,15 @@ small {
 .o-media--reverse {
   float: right;
   margin-right: 0;
-  margin-left: 1rem;
+  margin-left: 1.5rem;
 }
 
 /*
  *  Objects - Wrapper
  */
 .o-wrapper {
-  padding-left: 1rem;
-  padding-right: 1rem;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
   margin-right: auto;
   margin-left: auto;
   max-width: 1080px;
@@ -1553,37 +1553,44 @@ small {
 /*
  *  Utilities - Text Sizing
  */
-u-text-medium {
+.u-text-medium {
   font-size: 1.25rem;
   line-height: 1.2;
+  margin-bottom: 1.5rem;
 }
 
-u-text-large {
+.u-text-large {
   font-size: 1.5rem;
   line-height: 1.2083333333;
+  margin-bottom: 1.5rem;
 }
 
-u-text-huge {
+.u-text-huge {
   font-size: 2rem;
   line-height: 1.203125;
+  margin-bottom: 1.5rem;
 }
 
-u-text-gigantic {
+.u-text-gigantic {
   font-size: 3rem;
   line-height: 1.2083333333;
+  margin-bottom: 1.5rem;
 }
 
-u-text-enormous {
+.u-text-enormous {
   font-size: 4rem;
   line-height: 1.203125;
+  margin-bottom: 1.5rem;
 }
 
-u-text-tiny {
+.u-text-tiny {
   font-size: 0.75rem;
   line-height: 1.5;
+  margin-bottom: 1rem;
 }
 
-u-text-small {
+.u-text-small {
   font-size: 0.875rem;
   line-height: 1.5;
+  margin-bottom: 1rem;
 }
