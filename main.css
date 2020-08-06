@@ -97,12 +97,12 @@ dd, ol, ul {
  */
 :root {
   font-size: 16px;
-  min-height: 100%;
 }
 
-html {
+html, body {
   font-size: 1rem;
   line-height: 1.5;
+  min-height: 100%;
 }
 
 /*

@@ -3,9 +3,9 @@
 
 
 "@substructure/elements-base@^0.1.4":
-  version "0.1.11"
-  resolved "https://registry.yarnpkg.com/@substructure/elements-base/-/elements-base-0.1.11.tgz#4fc3a48606f55b810b49c97b4949ce794c08197b"
-  integrity sha512-IgbE918LPbuYoQ4y4ZkBWaT/M+I/6vY8dMuK9W1BN9rTgv0kT75sEMnk1Nkq1l/sMCIQoB5XVyVJ3iOaydym9w==
+  version "0.1.13"
+  resolved "https://registry.yarnpkg.com/@substructure/elements-base/-/elements-base-0.1.13.tgz#41bc7987033edf36d8e9b3dd72ba98b35ad4d50b"
+  integrity sha512-U1qwxXayiPIRS1wCVWv6FRNQGj00GuBB+YI9hAPJWUGoGoF+q2jyF9R9uvmoDYn9Mwn9Y/WLfpWzo3ArByub/g==
   dependencies:
     "@substructure/settings" "^0.1.5"
     "@substructure/tools" "^0.1.8"
