@@ -1,6 +1,6 @@
 {
   "name": "@substructure/substructure-portable",
-  "version": "1.0.4",
+  "version": "1.1.0",
   "main": "main.css",
   "author": "David B. Waters",
   "license": "MIT",
@@ -9,6 +9,7 @@
     "@substructure/elements-text": "^0.1.2",
     "@substructure/generic-initialize": "^0.1.2",
     "@substructure/generic-shared": "^0.1.2",
+    "@substructure/objects-layout": "^0.1.2",
     "@substructure/objects-media": "^0.1.2",
     "@substructure/objects-wrapper": "^0.1.2",
     "@substructure/settings": "^0.1.2",
@@ -16,10 +17,13 @@
     "@substructure/utilities-sizing": "^0.1.2",
     "@substructure/utilities-spacing": "^0.1.4",
     "@substructure/utilities-text-sizing": "^0.1.4",
+    "rimraf": "^3.0.2",
     "sass": "^1.26.10"
   },
   "scripts": {
-    "build": "sass --load-path=./ --no-source-map tools/main.scss main.css",
+    "build": "yarn build:clean && yarn build:sass",
+    "build:clean": "rimraf ./main.css",
+    "build:sass": "sass --load-path=./ --no-source-map ./tools/main.scss ./main.css",
     "deploy": "yarn deploy:npm && yarn deploy:git",
     "deploy:npm": "yarn publish --access public --patch",
     "deploy:git": "git add -A && git commit -m .; git push"
