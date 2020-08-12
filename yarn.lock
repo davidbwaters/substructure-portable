@@ -11,9 +11,9 @@
     "@substructure/tools" "^0.1.11"
 
 "@substructure/elements-text@^0.1.2":
-  version "0.1.11"
-  resolved "https://registry.yarnpkg.com/@substructure/elements-text/-/elements-text-0.1.11.tgz#b17219492644d106a70da9ab0ae404c5b31ccf13"
-  integrity sha512-aXY+zc1Hu1T+iwQW/Xu8Wx0aw6fqmu09KoF23ZN1pCa0IWL9Wu+3ujPRz2xYXDGmLVvwOJYCmvL/kz/UYGGyrw==
+  version "0.1.12"
+  resolved "https://registry.yarnpkg.com/@substructure/elements-text/-/elements-text-0.1.12.tgz#3d82c74c7fbb1268da8f027460b0bf1e5e202159"
+  integrity sha512-KMCpC/d3o4qt2l7kj3YtodN70Kgr9SGnudZxC18j4IVlVFc0ZP03692e9DKhsxI2mbtDdPEiUhouZrxljrU8Hw==
   dependencies:
     "@substructure/settings" "^0.1.8"
     "@substructure/tools" "^0.1.11"

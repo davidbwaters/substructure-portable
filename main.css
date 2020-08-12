@@ -111,33 +111,33 @@ html, body {
  *  Elements - Headings
  */
 h6 {
-  font-size: 3.5rem;
+  font-size: 1.25rem;
   line-height: 1.5;
 }
 
 h5 {
-  font-size: 3.5rem;
+  font-size: 1.5rem;
   line-height: 1.5;
 }
 
 h4 {
-  font-size: 3rem;
+  font-size: 2rem;
   line-height: 1.5;
 }
 
 h3 {
-  font-size: 2rem;
-  line-height: 1.3125;
+  font-size: 3rem;
+  line-height: 1.3020833333;
 }
 
 h2 {
-  font-size: 1.5rem;
-  line-height: 1.3125;
+  font-size: 3.5rem;
+  line-height: 1.3035714286;
 }
 
 h1 {
-  font-size: 1.25rem;
-  line-height: 1.3;
+  font-size: 3.5rem;
+  line-height: 1.3035714286;
 }
 
 small {
