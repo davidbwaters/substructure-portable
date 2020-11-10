@@ -1,13 +1,13 @@
 {
   "name": "@substructure/substructure-portable",
-  "version": "1.3.0",
+  "version": "1.4.0",
   "main": "main.css",
   "author": "David B. Waters",
   "license": "MIT",
   "devDependencies": {
     "@substructure/elements-base": "^0.1.22",
     "@substructure/elements-text": "^0.1.15",
-    "@substructure/generic-initialize": "^0.1.15",
+    "@substructure/generic-initialize": "^0.1.3",
     "@substructure/generic-shared": "^0.1.15",
     "@substructure/objects-layout": "^0.1.15",
     "@substructure/objects-media": "^0.1.15",
